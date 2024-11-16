@@ -12,5 +12,6 @@ export default defineConfig([
     entry: {"vad.worklet.bundle.min" :  "src/worklet.ts"},
     outDir: "dist_esm",
     format: [  "iife",  ],
+    outExtension: () => ({ js: '.js' }),
   },
 ])
