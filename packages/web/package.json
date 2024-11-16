@@ -14,9 +14,9 @@
   "homepage": "https://github.com/ricky0123/vad",
   "version": "0.0.19",
   "license": "ISC",
-  "main": "dist/index.js",
-  "unpkg": "dist/bundle.min.js",
-  "jsdelivr": "dist/bundle.min.js",
+  "main": "dist_esm/index.js",
+  "module": "dist_esm/index.mjs",
+  "types": "dist_esm/index.d.ts",
   "devDependencies": {
     "@playwright/test": "^1.48.1",
     "@types/audioworklet": "^0.0.36",
